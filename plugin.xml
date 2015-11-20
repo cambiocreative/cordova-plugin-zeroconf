@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.cambiocreative.cordova.plugin.zeroconf"
-    version="1.0.4">
+    version="1.0.5">
     <name>Cordova ZeroConf Plugin</name>
     <description>ZeroConf plugin for Cordova/Phonegap</description>
     <author>Osmond van Hemert</author>
@@ -30,7 +30,7 @@
             </feature>
         </config-file>
         <source-file src="src/android/libs/jmdns.jar" target-dir="libs" framework="true" />
-        <source-file src="src/android/zeroconf.java" target-dir="src/com/cambiocreative" />
+        <source-file src="src/android/ZeroConf.java" target-dir="src/com/cambiocreative" />
     </platform>
 
     <platform name="ios">
