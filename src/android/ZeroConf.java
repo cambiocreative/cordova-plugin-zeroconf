@@ -5,7 +5,7 @@
  * by Cambio Creative
  */
 
-package com.cambiocreative;
+package com.cambiocreative.cordova.plugin;
 
 import java.io.IOException;
 import java.net.InetAddress;
