@@ -1,6 +1,6 @@
 {
   "name": "com.cambiocreative.cordova.plugin.zeroconf",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ZeroConf plugin for Cordova/Phonegap",
   "cordova": {
     "id": "com.cambiocreative.cordova.plugin.zeroconf",
