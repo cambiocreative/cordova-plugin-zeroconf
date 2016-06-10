@@ -29,7 +29,8 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-        <source-file src="src/android/libs/jmdns.jar" target-dir="libs" framework="true" />
+        <framework src="javax.jmdns:jmdns:+"/>
+        <source-file src="src/android/libs/org.apache.http.legacy.jar" target-dir="libs" framework="true" />
         <source-file src="src/android/ZeroConf.java" target-dir="src/com/cambiocreative/cordova/plugin" />
     </platform>
 
